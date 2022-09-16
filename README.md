@@ -15,11 +15,12 @@ Here to get the dataset.
 - [Rendering](https://syncandshare.lrz.de/getlink/fi9CJhDyJ94CNWbwQkEitNH/ModelNet40_renderings.7z)
 - [PointCloud](https://syncandshare.lrz.de/getlink/fiBB13SMa2n88xJAK8sURfnB/ModelNet40_pointclouds.7z)
 
-## Training
-Here is our architeture and pipline.
+## Architecture
+Here is our architecture and pipline.
 
 ![Structure](img/pipeline.png)
 
+## Training instruction
 Type the following command to start train network.
 
 - `python trainer.py` - Train AtlasNet
