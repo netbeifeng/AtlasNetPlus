@@ -16,7 +16,9 @@ Here to get the dataset.
 - [PointCloud](https://syncandshare.lrz.de/getlink/fiBB13SMa2n88xJAK8sURfnB/ModelNet40_pointclouds.7z)
 
 ## Architecture
-Here is our architecture and pipline.
+Here is our architecture and pipline. In *Data Acquisition* stage, we pre-process the ModelNet40 Dataset, convert them to 12 different views and uniformly distributed Pointcloud. Afterwards, the views of images will be used to train SVCNN and MVCNN in sequence. 
+
+As the result, we will get a trained encoder for compressing the input image to a latent vector. The latent vector will be used in Atlasnet decoder for reconstructing the 3D strcture (by deforming the points sampled in template).
 
 ![Structure](img/pipeline.png)
 
