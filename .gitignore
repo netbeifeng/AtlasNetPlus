@@ -1,0 +1,25 @@
+archive/
+data/
+__pycache__/
+
+# Third party library, get it and compile it by yourself
+# ChamferDistancePytorch/
+*.egg
+*.o
+*.so
+chamfer_3D.egg-info/
+build/
+dist/
+output/
+# mesh
+*.off
+*.obj
+
+# point cloud
+*.pcd
+*.pyc
+
+# saved models
+*.ckpt
+*.pth
+*.yaml
