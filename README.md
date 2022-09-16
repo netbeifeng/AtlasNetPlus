@@ -1,5 +1,7 @@
 # AtlasNetPlus: 3D Shape Reconstruction and Shape Classification
 
+![Title Image](img/title_image.png)
+
 The paper [AtlasNet](https://arxiv.org/abs/1802.05384) proposed a MLP-based Single View Reconstruction Method. For inference, only one single view of a 3D object should be given, and the trained model will reveal and the whole 3D model. Based on this work, we propose to change the encoder as a pre-trained [MVCNN](https://arxiv.org/abs/1505.00880) encoder, which is trained on multiple views of images, the classification capability is imported and we also get a faster convergence and higher performance on test dataset.
 
 For more details you can read our [final report](docs/Final_report.pdf).
@@ -39,6 +41,11 @@ We have following scripts for pre-processing our data.
 - [Mesh fixer](./scripts/mesh_fixer.py) for fixing some error linebreak in ModelNet40 Models
 - [FPS sampler](./scripts/fps_pointcloud_generator.py) for sample pointcloud for ModelNet40 Meshes
 - [View generator](./scripts/view_generator.py) for generating surrounding views of ModelNet40 Meshes
+
+## Result 
+Here is our pre-trained model performance on some classes.
+
+![Result](img/result.png)
 
 ## Dependency
 
